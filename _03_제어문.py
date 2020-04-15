@@ -34,7 +34,7 @@ print(list(range(5)))
 # pass 문은 아무것도 하지 않습니다. 문법적으로 문장이 필요하지만, 프로그램이 특별히 할 일이 없을 때 사용할 수 있습니다.
 # ...특히 최소한의 클래스를 만들 때 흔히 사용됨
 def initlog(*args):
-    pass   # Remember to implement this!
+    pass   # Remember to impklement this!
 
 def myFunc(n):
     print("myFunc")
