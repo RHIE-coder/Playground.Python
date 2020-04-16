@@ -18,7 +18,7 @@ print(type(re2))
 print(re2)
 print(fruits)
 
-"""
+""" 
 list.append(x)
     리스트의 끝에 항목을 더합니다. 
     a[len(a):] = [x] 와 동등합니다.
@@ -56,4 +56,62 @@ list.reverse()
 list.copy()
 리스트의 얕은 사본을 돌려줍니다. a[:] 와 동등합니다.
 """
+a = [1,2,3,1,2,1,2,3,1]
+a[len(a):] = [10] # append
+print(a)
+
+a.insert(2,100)
+print(a)
+a.remove(1) # 값으로 삭제
+print(a)
+a.pop() 
+a.pop(0) # index로 삭제
+print(a)
+print(a.index(1, 7, len(a)))
+a.extend([10,20,30])
+print(a)
+
+# 리스트로 스텍 활용은 괜찮은데 queue로 활용하면 느림
+# ...모두 한칸식 이동해야하기 때문임
+from collections import deque
+queue = deque(["Eric","John","Michael"])
+queue.append("Terry")
+queue.append("Graham")
+print(queue)
+queue.popleft()
+print(queue)
+print(type(dir(queue)))
+print(dir(queue))
+
+squares = []
+# 구 방식
+# for x in range(10):
+#     squares.append(x ** 2)
+
+# !?
+def anony(x):
+    return x ** 2
+m = map(anony,range(10))
+print(tuple(m))
+
+# !!! 향상된 방식
+good = list(map(lambda x : x ** 2, range(10)))
+print("good : ", good)
+
+# 신 방식
+squares = [x**2 for x in range(10)]
+print(squares)
+
+# wow...
+wow = [(x, y) for x in [1,2,3] for y in [3,1,4] if x is not y]
+print(wow)
+
+# for x in [1,2,3]:
+#     for y in [3,1,4]:
+#         if x != y:
+#             combs.append((x,y))
+
+vec = [[1,2,3],[4,5,6],[7,8,9]]
+print([num for elem in vec for num in elem])
+#print([num for num in elem for elem in vec]) error
 
