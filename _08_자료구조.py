@@ -115,3 +115,45 @@ vec = [[1,2,3],[4,5,6],[7,8,9]]
 print([num for elem in vec for num in elem])
 #print([num for num in elem for elem in vec]) error
 
+# 중첩된 리스트 컴프리헨션
+matrix = [
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]
+]
+
+result = [row[i] for row in matrix for i in range(4)]
+result2 = []
+
+print(result)
+
+# transposed=[]
+# for i in range(4):
+#     transposed_row = []
+#     for row in matrix:
+#         transposed_row.append(row[i])
+#     transposed.append(transposed_row)
+
+# dictionary의 map 활용
+dic = {
+    1 : 10,
+    5 : 30,
+    9 : 50
+}
+
+def testFunc(x):
+    return x * 2
+
+print(list(map(testFunc, dic)))
+print(list(dic[i] for i in dic ))
+print(lambda y : y * 10, [y for y in dic])
+print(map(lambda y : y * 10, [y for y in dic]))
+print(list(map(lambda y : y * 10, [y for y in dic])))
+
+result = list([row[i] for row in matrix] for i in range(4))
+print(result)
+
+# zip : 김밥을 만들어서 칼로 자르는 느낌
+print("===============")
+print(list(zip(*matrix)))
+
