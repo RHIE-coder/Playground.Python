@@ -58,6 +58,7 @@
 `ctrl`+`g` : 몇번째 줄인지 보기<br>
 `ctrl`+`p` : 파일 열기<br>
 `ctrl`+`shift`+`o` : 변수 찾기<br>
+`ctrl`+`kd` : 저장 <br>
 `F8` : 에러 위치 포커싱(다음)<br>
 `shift`+`F8` : 에러 위치 포커싱(이전)<br>
 
@@ -83,7 +84,6 @@
 
 `ctrl`+`shift`+`n` : 새로운 Editor 창 Open~!<br>
 `ctrl`+`w` : 에디터 닫기 `ctrl`+`f4`<br>
-`ctrl`+`kf` : 에디터 모두 닫기<br>
 `ctrl`+`\` : 에디터 나누기<br>
 `ctrl`+`1` : 에디터 이동 <br>
 `ctrl`+`2` : 에디터 이동 <br>

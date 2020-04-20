@@ -1,10 +1,10 @@
 # tuple
 t = 1234,5678,"hi"
-print(t)
-NUM1123 = "HELLO"
-num1123 = "hellol",str(1) # 튜플로 
-num1123 = "hellol"+str(1) # 합쳐져서 문자열로 s
-PRIRIRI(NUM1123)
+print("와우 이게 바뀜")
+num = "hello"
+num = "hellol",str(1) # 튜플로 
+num = "hellol"+str(1) # 합쳐져서 문자열로 s
+print(num)
 
 # 여기서 수정되면 여기도 수정됩니다.
 (shortcut(t4))
@@ -70,8 +70,8 @@ t = 1234,5678,"hi"
 print(t)
 num12 = "hellol"
 num12 = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-num1123 = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-pririri(num1123)
+num = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+pririri(num)
 l = ["1",2,3.0]
 (shortcut(t4))
 pririri(shortcut(t4))
@@ -145,10 +145,10 @@ testMtr=[
 # tuple
 t = 1234,5678,"hi"
 print(t)
-num1123 = "hellol"
-num1123 = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-num1123 = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-pririri(num1123)
+num = "hellol"
+num = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+num = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+pririri(num)
 l = ["1",2,3.0]
 (shortcut(t3))
 rld', # <-- note triling commsdfsdfsdfsdfdsfsdfsdfsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
@@ -219,10 +219,10 @@ testMtr=[
 # tuple
 t = 1234,5678,"hi"
 print(t)
-num1123 = "hellol"
-num1123 = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-num1123 = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-pririri(num1123)
+num = "hellol"
+num = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+num = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+pririri(num)
 l = ["1",2,3.0]
 
 fsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
@@ -297,10 +297,10 @@ testMtr=[
 # tuple
 t = 1234,5678,"hi"
 print(t)
-num1123 = "hellol"
-num1123 = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-num1123 = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-pririri(num1123)
+num = "hellol"
+num = "hellol",str(1) # 튜플로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+num = "hellol"+str(1) # 합쳐져서 문자열로 만들어짐ㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
+pririri(num)
 l = ["1",2,3.0]
 
 fsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
