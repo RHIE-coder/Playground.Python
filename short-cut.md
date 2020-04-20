@@ -1,7 +1,7 @@
 # Edit Area
 
-`F1` : transper to uppercase<br>
-`F1` : transper to lowercase<br>
+`F1` : transform to uppercase<br>
+`F1` : transform to lowercase<br>
 
 `ctrl`+`shift`+`k` : 줄 지우기<br>
 
@@ -108,6 +108,7 @@
 
 `ctrl`+`shift`+`v` : 마크다운 미리보기(크게)<br>
 `ctrl`+`k` `ctrl`+`v` : 마크다운 미리보기(사이드)<br>
-`ctrl`+ ` : 터미널<br>
+`ctrl`+ ` : 터미널
+
 `ctrl`+`shift`+`u` : OUTPUT<br>
 `ctrl`+`shift`+`m` : 에러 보기<br>

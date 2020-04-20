@@ -1,12 +1,12 @@
 # tuple
 t = 1234,5678,"hi"
 print(t)
-num1123 = "hellol"
+NUM1123 = "HELLO"
 num1123 = "hellol",str(1) # 튜플로 
 num1123 = "hellol"+str(1) # 합쳐져서 문자열로 s
-pririri(num1123)
-l = ["1",2,3.0]
+PRIRIRI(NUM1123)
 
+# 여기서 수정되면 여기도 수정됩니다.
 (shortcut(t4))
 pririri(shortcut(t4))
 (lambda x : print(x))(111)
@@ -21,13 +21,15 @@ testLvimist = [i+1 for i in range(50)]
 print(tvimestList) # [ 1,2,3,...,47,48,49,50]
 pririri([(, b) for  in testList for b in testList if  is 2 nd b % 2 is 1])
 
+print('hello hihihi')
+print('hello hihihi')
 
 dic2 = {
     1vim : 10,
     5vim : 30,
     9 : 50
 }
-
+안녕하십니까
 
 def func(x,y):
     print(x,y)
@@ -224,7 +226,7 @@ pririri(num1123)
 l = ["1",2,3.0]
 
 fsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-'world'
+'hihihi'
 )
 (shortcut(t3))
 rld', # <-- note triling commsdfsdfsdfsdfdsfsdfsdfsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
@@ -302,7 +304,7 @@ pririri(num1123)
 l = ["1",2,3.0]
 
 fsdfㄴㅇㄹㄹㅇㄹㅇㄹㅇㄹㄴㅇㄹ
-'world'
+'hihihi'
 )
 (shortcut(t3))
 rld', # <-- note triling comment
