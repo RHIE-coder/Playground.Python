@@ -7,7 +7,7 @@ class Duck():
         print("inside the getter") 
         return self.hidden_name 
         
-    @name.setter e
+    @name.setter
     def set_name(self, input_name): 
         print("inside the setter") 
         self.hidden_name = input_name
