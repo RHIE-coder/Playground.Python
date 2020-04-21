@@ -1,2 +1,16 @@
-symbol=9
-print(((symbol+1) % 10))
+class Duck(): 
+    def __init__(self, input_name): 
+        self.hidden_name = input_name 
+        
+    @property 
+    def name(self): 
+        print("inside the getter") 
+        return self.hidden_name 
+        
+    @name.setter e
+    def set_name(self, input_name): 
+        print("inside the setter") 
+        self.hidden_name = input_name
+
+a = Duck("hello") 
+print(a.name)

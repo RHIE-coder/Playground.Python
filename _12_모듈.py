@@ -41,5 +41,27 @@ re.getter()
 
 ### """ cpython.pyc 모듈 쓰는법 알아보기"""
 
-y = lambda x : print(x)
+import builtins
+print(dir(builtins))
+
+# 모듈 불러오기 방식
+import sound.effects.echo
+sound.effects.echo.echofilter()
+
+from sound.effects import echo
+echo.echofilter()
+
+from sound.effects.echo import echofilter
+echofilter()
+
+""" 
+from package import item <-- 이 때 item
+패키지의 서브 모듈(또는 서브 패키지) 일수도 있고
+함수, 클래스, 변수 등 패키지에 정의된 다른 이름일 수도 있음
+# import문은 먼저 item이 패키지에 정의되어 있는지 검사하고 그렇지 않으면 모듈이라 가정하고 로드 시도
+찾지 못하면 importError
+# import item.subitem.subsubitem와 같은 문법일 때 마지막 것을 제외한 각 항목은
+반드시 패키지여야 한다. 마지막 항목은 모듈이나 패키지가 될 수 있지만
+앞의 항목에서 정의된 것은 클래스, 함수, 변수 등이 될 수 없음
+"""
 
