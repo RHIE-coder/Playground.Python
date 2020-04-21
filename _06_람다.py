@@ -36,4 +36,4 @@ def ff(ham: str, eggs: str = "eggs") -> str:
     print("Arguments:", ham, eggs)
     return ham + " and " + eggs
 
-print(ff(11))
+print(ff("11"))

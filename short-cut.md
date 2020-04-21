@@ -107,7 +107,7 @@
 `ctrl`+`shift`+`g` : .git<br>
 
 `ctrl`+`shift`+`v` : 마크다운 미리보기(크게)<br>
-`ctrl`+`k` `ctrl`+`v` : 마크다운 미리보기(사이드)<br>
+`ctrl`+`kv` : 마크다운 미리보기(사이드)<br>
 `ctrl`+ ` : 터미널
 
 `ctrl`+`shift`+`u` : OUTPUT<br>
