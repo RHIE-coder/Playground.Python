@@ -13,7 +13,6 @@ while(True):
     user_expect = input("[행맨게임] 단어를 맞춰보세요 : ")
     for index, keyword in enumerate(answer):
         if(keyword in (answer and user_expect)):
-
             check[index] = keyword
         else:
             wrong_count += 1
