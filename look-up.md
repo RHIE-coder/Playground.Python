@@ -7,7 +7,7 @@ https://wikidocs.net/32
 https://wikidocs.net/1669
 
 https://docs.python.org/3/tutorial/stdlib.html
-https://docs.python.org/3/tutorial/stdlib2.html
+https://docs.python.org/3/tutorial/stdlib2.htmls
  https://docs.python.org/3/tutorial/venv.html
  
  https://docs.python.org/ko/3/library/stdtypes.html#string-methods
@@ -17,3 +17,5 @@ https://docs.python.org/3/tutorial/stdlib2.html
  
  https://docs.python.org/ko/3/library/stdtypes.html#string-methods
  https://docs.python.org/3/library/functions.html
+ 
+ https://nomadcoders.co/python-for-beginners
