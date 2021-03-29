@@ -1,21 +1,33 @@
-https://wikidocs.net/21047
+https://wikidocs.net/21047<br>
 
-https://wikidocs.net/106250
-https://wikidocs.net/89
-https://wikidocs.net/103937
-https://wikidocs.net/32
-https://wikidocs.net/1669
+<hr>
 
-https://docs.python.org/3/tutorial/stdlib.html
-https://docs.python.org/3/tutorial/stdlib2.htmls
- https://docs.python.org/3/tutorial/venv.html
+https://wikidocs.net/106250<br>
+https://wikidocs.net/89<br>
+https://wikidocs.net/103937<br>
+https://wikidocs.net/32<br>
+https://wikidocs.net/1669<br>
+
+<hr>
+
+https://docs.python.org/3/tutorial/stdlib.html<br>
+https://docs.python.org/3/tutorial/stdlib2.html<br>
+https://docs.python.org/3/tutorial/venv.html<br>
  
- https://docs.python.org/ko/3/library/stdtypes.html#string-methods
+<hr>
+
+https://docs.python.org/ko/3/library/stdtypes.html#string-methods<br>
+
+<hr>
+
+https://www.youtube.com/watch?v=t3M6toIflyQ<br>
+https://yurimkoo.github.io/analytics/2019/10/26/regular_expression.html<br>
  
- https://www.youtube.com/watch?v=t3M6toIflyQ
- https://yurimkoo.github.io/analytics/2019/10/26/regular_expression.html
- 
- https://docs.python.org/ko/3/library/stdtypes.html#string-methods
- https://docs.python.org/3/library/functions.html
- 
- https://nomadcoders.co/python-for-beginners
+<hr>
+
+https://docs.python.org/ko/3/library/stdtypes.html#string-methods<br>
+https://docs.python.org/3/library/functions.html<br>
+
+<hr>
+
+https://nomadcoders.co/python-for-beginners<br>
