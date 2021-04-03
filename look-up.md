@@ -16,10 +16,6 @@ https://docs.python.org/3/tutorial/venv.html<br>
  
 <hr>
 
-https://docs.python.org/ko/3/library/stdtypes.html#string-methods<br>
-
-<hr>
-
 https://www.youtube.com/watch?v=t3M6toIflyQ<br>
 https://yurimkoo.github.io/analytics/2019/10/26/regular_expression.html<br>
  
