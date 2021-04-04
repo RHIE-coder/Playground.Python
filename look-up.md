@@ -21,7 +21,6 @@ https://yurimkoo.github.io/analytics/2019/10/26/regular_expression.html<br>
  
 <hr>
 
-https://docs.python.org/ko/3/library/stdtypes.html#string-methods<br>
 https://docs.python.org/3/library/functions.html<br>
 
 <hr>

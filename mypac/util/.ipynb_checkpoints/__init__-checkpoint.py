@@ -1,1 +1,1 @@
-__all__ = ["calc","of"]
+__all__=["calc","stream"]
