@@ -26,3 +26,18 @@ https://docs.python.org/3/library/functions.html<br>
 <hr>
 
 https://nomadcoders.co/python-for-beginners<br>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
