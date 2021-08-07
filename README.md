@@ -1,17 +1,6 @@
-# 파이썬 공부
+# Python Study
 
-<hr>
+# 01. 시작하기
 
-## Python Install
+[JUPYTER_LAB](./[01]Getting-Started/installation.ipynb)
 
-### [downloads](https://www.python.org/downloads/)
-
-## JupterLab Install
-
-### [Documentation](https://jupyterlab.readthedocs.io/en/stable/)
-
-<hr>
-
-## The Python Tutorial
-
-### [Python 3.7.10 documentation](https://docs.python.org/3.7/)
