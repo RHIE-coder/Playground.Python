@@ -2,7 +2,7 @@
 
 # A. 시작하기
 
-[JUPYTER_LAB](./[01]Getting-Started/installation.ipynb)
+[JUPYTER_LAB](./%5B01%5DGetting-Started/Installation.ipynb)
 
 # B. 기본편
 
