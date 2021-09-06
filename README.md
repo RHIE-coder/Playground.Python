@@ -2,7 +2,7 @@
 
 # A. 시작하기
 
-[JUPYTER_LAB](./[01]Getting-Started/installation.ipynb)
+[JUPYTER_LAB](./%5B01%5DGetting-Started/Installation.ipynb)
 
 # B. 기본편
 
@@ -25,9 +25,9 @@
 ## [05.데코레이터](./[03]Advanced/05.데코레이터.ipynb)
 ## [06.모듈](./[03]Advanced/06.모듈.ipynb)
 ## [07.파일_입출력](./[03]Advanced/07.파일_입출력.ipynb)
-## [08.파일_입출력](./[03]Advanced/07.파일_입출력.ipynb)
-## [09.파일_입출력](./[03]Advanced/07.파일_입출력.ipynb)
-## [10.파일_입출력](./[03]Advanced/07.파일_입출력.ipynb)
+## [08.이터레이터와_제너레이터](./[03]Advanced/08.이터레이터와_제너레이터.ipynb)
+## [09.비동기](./[03]Advanced/09.비동기.ipynb)
+## [10.가상환경](./[03]Advanced/10.가상환경.ipynb)
 
 # D. 보충자료
 
