@@ -1,1 +1,1 @@
-__all__=["calc","stream"]
+__all__ = ["calc","mydeco","stream"]

@@ -1,45 +1,38 @@
 from functools import reduce
 from collections import deque
 
-def values(*args):
-    return args
+class HigherOrder:
+    def __init__(self, *args):
+        self.args = args
+        self.isVerboseMode = False
 
-def verboseOf(values, *, mapping = None, filtering = None, reducing = None):
-    print("Parsing Target : ", values)
-    queue = deque([mapping, filtering, reducing])
-    print("Parsing Steps : ", queue)
-    source = list(values)
-    x = queue.popleft()
-    print("Mapping Steps : ", x)
-    if x != None:
-        source = list(map(x,source))
-        print("Mapping After: ", source)
-    x = queue.popleft()
-    print("Filtering Steps : ", x)
-    if x != None:
-        source = filter(x, source)
-        print("Filtering After: ", source)
-    x = queue.popleft()         
-    print("Reducing Steps : ", x)
-    if x != None:
-        source = reduce(x, source)
-        print("Reducing After: ", source)
-             
-    print("Result : ", source)
+    def verbose(self, isVerboseMode):
+        self.isVerboseMode = isVerboseMode
     
-    return source
+    def changeValues(self, *args):
+        self.args = args
 
-def of(values, *, mapping = None, filtering = None, reducing = None):
-    queue = deque([mapping, filtering, reducing])
-    source = list(values)
-    x = queue.popleft()
-    if x != None:
-        source = list(map(x,source))
-    x = queue.popleft()
-    if x != None:
-        source = filter(x, source)
-    x = queue.popleft()            
-    if x != None:
-        source = reduce(x, source)
+    def functionsChain(self, *, mapping = None, filtering = None, reducing = None):
+        self.isVerboseMode if print("Parsing Target : ", self.args) else None
+        queue = deque([mapping, filtering, reducing])
+        self.isVerboseMode if print("Parsing Steps : ", queue) else None
+        source = list(self.args)
+        x = queue.popleft()
+        self.isVerboseMode if print("Mapping Steps : ", x) else None
+        if x != None:
+            source = list(map(x,source))
+            self.isVerboseMode if print("Mapping After: ", source) else None
+        x = queue.popleft()
+        self.isVerboseMode if print("Filtering Steps : ", x) else None
+        if x != None:
+            source = filter(x, source)
+            self.isVerboseMode if print("Filtering After: ", source) else None
+        x = queue.popleft()         
+        self.isVerboseMode if print("Reducing Steps : ", x) else None
+        if x != None:
+            source = reduce(x, source)
+            self.isVerboseMode if print("Reducing After: ", source) else None
                 
-    return source
+        self.isVerboseMode if print("Result : ", source) else None
+        
+        return source
